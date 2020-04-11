@@ -1,0 +1,19 @@
+{
+  "name": "dmda",
+  "version": "1.0.0",
+  "description": "Deconstruct Multi Dimension Array!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seemgame/dmda.git"
+  },
+  "keywords": [
+    "multi dimension array to",
+    "more dimension array"
+  ],
+  "author": "YUMCC",
+  "license": "ISC"
+}
