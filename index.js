@@ -6,11 +6,8 @@
  * isRepeat: 去重操作
  */
 module.exports = (arr, options) => {
-  const { level = Infinity, isRepeat = false } =  options || {}
+  const { level = Infinity, isRepeat = false } = options || {}
   arr = arr || []
-  let new_arr = arr.flat(level)
-  if (isRepeat) {
-    new_arr = Array.from(new Set(new_arr))
-  }
-  return new_arr
+  let data = arr.flat(level)
+  return isRepeat ? Array.from(new Set(data)) : data
 }
